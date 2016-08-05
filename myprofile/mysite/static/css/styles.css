@@ -1,0 +1,33 @@
+body{padding-top: 40px;}
+
+.navbar-custom{font-size: 20px;
+			   height: 60px;}
+
+section {width : 100vw;
+	     height: 100vh;}
+
+#home{background: url(../images/ent.png);
+	  background-size: 100% 100%;
+	  color: #fff;}
+
+#home .container{padding-top: 50px;}
+
+
+#about{background: white;
+	   padding-top: 15px;}
+
+#about img{height:300px;
+		   padding-bottom: 10px;} 
+
+#portfolio{background: white;
+		   padding-top: 15px;
+		   padding-bottom: 20px;}
+#portfolio .container .col-md-3{padding-bottom: 20px;}
+
+#contact{background: white;
+		 padding-top: 15px;
+		 padding-bottom: 15px;}
+
+#footerz{height: 80px;
+		color: white;
+		background-color: black;}

@@ -1,0 +1,107 @@
+{% extends "mysite/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+	<section id="home">
+		<div class="container">
+			<div class="container text-center">
+				<h2>Hi, meet Piero Muguna</h2>
+				<p class="lead">Web Developer From Kenya, Tech Enthusiast and Awesome Dude!</p>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="container">
+			<div class="page-header">
+				<h1 class="text-center">About Moí</h1>
+			</div>
+			<div class="col-md-12">
+				<center><img class="img-responsive img-circle" src="static/images/piero.png"/></center>
+				<p class="lead">Hi, thanks for stopping by. I am Piero, a passionate Python developer who cares deeply about beautiful design, elegant code, and the intersection of the two. My core competency lies in complete end-end management of a new website development project.</p>
+
+				<p class="lead">I'm on a journey to programming mastery, my main focus is Python using teh Django framework. I wish to help my clients build state of art Python applications. Join me as I work to master Python, ajax, jquery, html5, css3 and more!</p>
+				<hr>
+			</div>
+			
+		</div>
+	</section>
+	<section id="portfolio">
+		<div class="container">
+			<div class="page-header">
+				<h1 class="text-center">Portfolio</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="img img-responsive img-thumbnail" src="static/images/ojienda.png">
+					<h3>Ojienda & Company Advocates</h3>
+					<p>It is a long established fact that a reader will be distracted..</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive img-thumbnail" src="static/images/marschem.png">
+					<h3>Marschem Ltd</h3>
+					<p>It is a long established fact that a reader will be distracted..</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive img-thumbnail" src="static/images/glinter.png">
+					<h3>Glinter Logistics</h3>
+					<p>It is a long established fact that a reader will be distracted..</p>
+				</div>
+
+				<div class="clearfix hidden-md-up"></div>
+
+				<div class="col-md-4">
+					<img class="img img-responsive img-thumbnail" src="static/images/cyclone.png">
+					<h3>Cyclone Developers</h3>
+					<p>It is a long established fact that a reader will be distracted..</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive img-thumbnail" src="static/images/sacco.png">
+					<h3>Sacco CRM</h3>
+					<p>It is a long established fact that a reader will be distracted.. </p>
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive img-thumbnail" src="static/images/imentidecides.png">
+					<h3>North Imenti Decides</h3>
+					<p>It is a long established fact that a reader will be distracted.. </p>
+				</div>
+				<div><hr></div>
+				<div class="clearfix hidden-md-up"></div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="page-header">
+			<hr>
+				<h1 class="text-center">Contact</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-1 col-md-9">
+					<form class="form-horizontal" method="POST">
+						<div class="form-group">
+							<label class="control-label">Name</label>
+							<input type="text" name="names" class="form-control" placeholder="Names">
+						</div>
+						<div class="form-group">
+							<label class="control-label">Email</label>
+							<input type="email" name="email" class="form-control" placeholder="Email Address">
+						</div>
+						<div class="form-group">
+							<label class="control-label">Subject</label>
+							<input type="text" name="subject" class="form-control" placeholder="Subject">
+						</div>
+						<div class="form-group">
+							<label class="control-label">Message</label>
+							<textarea class="form-control" rows="10" name="message"></textarea>
+						</div>
+						<div class="text-center">
+							<button type="submit" name="submit" class="btn-lg btn-primary">Send</button>
+							<button type="reset" class="btn-lg btn-danger">cancel</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

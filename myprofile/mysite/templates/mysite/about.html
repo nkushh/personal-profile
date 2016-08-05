@@ -1,0 +1,19 @@
+{% extends "mysite/base2.html" %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+<h1 class="page-header">About Me</h1>
+<div class="row">
+	<div class="col-md-offset-1 col-md-8">
+		{% for description in data %}
+		<h3 class="text-center">{{ description.title }}</h3>
+		{{ description.content }}
+
+		<div class="col-md-offset-4">
+			<button type="button" class="btn-lg btn-primary"><i class="fa fa-edit"></i> Edit</button>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}
